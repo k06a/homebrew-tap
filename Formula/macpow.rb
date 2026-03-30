@@ -1,8 +1,8 @@
 class Macpow < Formula
   desc "Real-time power consumption monitor for Apple Silicon Macs"
   homepage "https://github.com/k06a/macpow"
-  url "https://github.com/k06a/macpow/archive/refs/tags/v0.1.5.tar.gz"
-  sha256 "f8ac4267a8c1417de483fe76633d0a46f9f24dfc8d0249d5466a38fb1031c9a6"
+  url "https://github.com/k06a/macpow/archive/refs/tags/v0.1.7.tar.gz"
+  sha256 "eb9279d47f4ad40f5b85564034b1d55a2ad3524eff65c746ce0d017e53dbd986"
   license "MIT"
 
   depends_on "rust" => :build
