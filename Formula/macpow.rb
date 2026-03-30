@@ -6,8 +6,8 @@ class Macpow < Formula
   license "MIT"
 
   depends_on "rust" => :build
-  depends_on :macos
   depends_on arch: :arm64
+  depends_on :macos
 
   def install
     system "cargo", "install", *std_cargo_args
