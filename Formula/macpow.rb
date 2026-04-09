@@ -6,9 +6,9 @@ class Macpow < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/k06a/homebrew-tap/releases/download/macpow-0.1.16"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "9f909ebcd1dade8436c6aa01b6c9624529936484526ba0b1b659e567e61d5a1f"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "bd05081801bca552f4c4f2eafc2a39e9541e51401ece994d1d0180470e400d4c"
+    root_url "https://github.com/k06a/homebrew-tap/releases/download/macpow-0.1.17"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "b020998ccc6e6f6dba3fde5792798ae0c48b336a58b7d31746833a3b88aae5eb"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "6a4d39f214914303acd346d4cd7346c461fcd41a2589575c360d5a3a10ca9caa"
   end
 
   depends_on "rust" => :build
